@@ -8,18 +8,18 @@ function Projects() {
       link: 'https://github.com/JustinM3RRILL',
     //   videoUrl: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' // 🔗 Video link
     },
-    {
-      title: 'Weather App',
-      description: 'A simple weather app using OpenWeatherMap API and React hooks.',
-    //   link: 'https://github.com/yourusername/weather-app',
-    //   videoEmbed: 'https://www.youtube.com/embed/ysz5S6PUM-U' // 📺 Embed YouTube
-    },
-    {
-      title: 'Task Tracker',
-      description: 'A full-stack to-do app using the MERN stack.',
-      //link: 'https://github.com/yourusername/task-tracker'
-      // No video included
-    }
+    // {
+    //   title: 'Weather App',
+    //   description: 'A simple weather app using OpenWeatherMap API and React hooks.',
+    // //   link: 'https://github.com/yourusername/weather-app',
+    // //   videoEmbed: 'https://www.youtube.com/embed/ysz5S6PUM-U' // 📺 Embed YouTube
+    // },
+    // {
+    //   title: 'Task Tracker',
+    //   description: 'A full-stack to-do app using the MERN stack.',
+    //   //link: 'https://github.com/yourusername/task-tracker'
+    //   // No video included
+    // }
   ];
 
   return (
@@ -35,7 +35,7 @@ function Projects() {
               See my code here:
             </a>
 
-            {/* 🔗 Show a video link if available */}
+            {/* 🔗 Show a video link if available
             {project.videoUrl && (
               <p>
                 <a href={project.videoUrl} target="_blank" rel="noopener noreferrer">
@@ -44,7 +44,7 @@ function Projects() {
               </p>
             )}
 
-            {/* 📺 Embed a video if provided */}
+            📺 Embed a video if provided
             {project.videoEmbed && (
               <div className="video-wrapper">
                 <iframe
@@ -57,7 +57,7 @@ function Projects() {
                   allowFullScreen
                 ></iframe>
               </div>
-            )}
+            )} */}
           </li>
         ))}
       </ul>
